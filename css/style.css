@@ -123,7 +123,7 @@ body {
 .main_top > h2 {
 	margin: 0 20px;
 	font-size: 1.4em;
-	font-weight: normal;
+	line-height: 1.2em;
 }
 
 .main_middle {
@@ -131,7 +131,7 @@ body {
 }
 
 .main_middle > h1 > img.logo {
-	width: 70%;
+	width: 80%;
 	margin: 0 auto;
 	display: block;
 }
@@ -145,7 +145,7 @@ body {
 }
 
 .main_bottom {
-	margin: 0;
+	margin: 20px 0;
 }
 
 .main_bottom > img.soon {
