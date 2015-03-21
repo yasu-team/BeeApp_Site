@@ -1,0 +1,70 @@
+body {
+	background-image: url('../img/lp_bg.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: "Lucida Grande", "segoe UI", "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", Meiryo, Arial, sans-serif;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.mock {
+	width: 600px;
+	float: left;
+}
+
+.mock > img.iphone {
+	width: 500px;
+	margin: 40px 0 0 0;
+	float: right;
+}
+
+.main {
+	width: 600px;
+	float: left;
+}
+
+.main_top {
+	margin-top: 140px;
+}
+
+.main_top > h2 {
+	text-align: center;
+	font-size: 26px;
+	font-weight: bold;
+}
+
+.main_middle {
+	margin-top: 120px;
+}
+
+.main_middle > h1 > img.logo {
+	width: 460px;
+	margin-left: 40px;
+}
+
+.main_middle > img.appstore {
+	display: block;
+	width: 220px;
+	margin: 0 auto;
+}
+
+.main_middle > p.text {
+	text-align: center;
+	font-size: 20px;
+	color: white;
+}
+
+.main_bottom {
+	margin-top: 120px;
+}
+
+.main_bottom > img.soon {
+	display: block;
+	width: 300px;
+	margin: 0 auto;
+}
