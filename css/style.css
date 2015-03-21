@@ -80,3 +80,16 @@ body {
 	width: 300px;
 	margin: 0 auto;
 }
+
+.share {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+.share li {
+	list-style: none;
+	float: left;
+	width: 120px;
+	height: 20px;
+}
