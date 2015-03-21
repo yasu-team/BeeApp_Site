@@ -153,6 +153,7 @@ body {
 
 .mock {
 	width: 100%;
+	height: 500px;
 }
 
 .mock > img.iphone {
