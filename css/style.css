@@ -1,4 +1,9 @@
+html {
+	height: 100%;
+}
+
 body {
+	height: 100%;
 	background-image: url('../img/lp_bg.png');
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -9,7 +14,10 @@ body {
 
 .container {
 	width: 1200px;
+	height: 100%;
 	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
 }
 
 .mock {
@@ -19,17 +27,20 @@ body {
 
 .mock > img.iphone {
 	width: 500px;
-	margin: 40px 0 0 0;
 	float: right;
 }
 
 .main {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
 	width: 600px;
-	float: left;
+	height: 580px;
 }
 
 .main_top {
-	margin-top: 10%;
 }
 
 .main_top > h2 {
@@ -39,7 +50,7 @@ body {
 }
 
 .main_middle {
-	margin-top: 10%;
+	margin-top: 60px;
 }
 
 .main_middle > h1 > img.logo {
@@ -60,7 +71,7 @@ body {
 }
 
 .main_bottom {
-	margin-top: 10%;
+	margin-top: 60px;
 }
 
 .main_bottom > img.soon {
