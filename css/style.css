@@ -20,17 +20,6 @@ body {
 	position: relative;
 }
 
-.mock {
-	width: 600px;
-	float: left;
-}
-
-.mock > img.iphone {
-	width: 500px;
-	float: right;
-	margin-top: 20px;
-}
-
 .main {
 	position: absolute;
 	top: 0;
@@ -81,10 +70,22 @@ body {
 	margin: 0 auto;
 }
 
+.mock {
+	width: 600px;
+	float: left;
+}
+
+.mock > img.iphone {
+	width: 500px;
+	float: right;
+	margin-top: 20px;
+}
+
 .share {
 	position: absolute;
-	left: 0;
+	left: 20px;
 	bottom: 0;
+	padding: 0;
 }
 
 .share li {
@@ -96,4 +97,80 @@ body {
 
 .share li.fb > iframe {
 	height: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+.container {
+	width: auto;
+	height: auto;
+	margin: 0;
+	overflow: hidden;
+	position: static;
+}
+
+.main {
+	width: 100%;
+	height: auto;
+	position: static;
+}
+
+.main_top {
+	margin-top: 60px;
+}
+
+.main_top > h2 {
+	margin: 0 20px;
+	font-size: 1.4em;
+	font-weight: normal;
+}
+
+.main_middle {
+	margin: 0;
+}
+
+.main_middle > h1 > img.logo {
+	width: 70%;
+	margin: 0 auto;
+	display: block;
+}
+
+.main_middle > img.appstore {
+	width: 40%;
+}
+
+.main_middle > p.text {
+	font-size: 1em;
+}
+
+.main_bottom {
+	margin: 0;
+}
+
+.main_bottom > img.soon {
+	width: 60%;
+}
+
+.mock {
+	width: 100%;
+}
+
+.mock > img.iphone {
+	width: 100%;
+	margin: 0 auto;
+	display: block;
+	float: none;
+}
+
+.share {
+	top: 0;
+}
+
+.share li {
+}
+
+.share li.fb > iframe {
+}
+
 }
