@@ -28,6 +28,7 @@ body {
 .mock > img.iphone {
 	width: 500px;
 	float: right;
+	margin-top: 20px;
 }
 
 .main {
