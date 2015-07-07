@@ -33,10 +33,10 @@ body {
 }
 
 h3 {
-	width: 240px;
+	width: 220px;
 	margin: 60px auto 20px;
 	padding: 10px 0;
-	font-size: 22px;
+	font-size: 20px;
 	text-align: center;
 	background: rgba(0, 0, 0, 0.1);
 	border-radius: 40px;
@@ -57,23 +57,23 @@ h3 {
 .top .mock {
 	width: 80%;
 	margin: 0 10%;
-	position: relative;
-	top: 370px;
 }
 
 .top .main {
+	background: #f9f7f4;
 	position: absolute;
-	top: 0;
+	bottom: 0;
 }
 
 .top .main .catch {
 	width: 90%;
 	margin: 0 5%;
+	padding: 10px 0;
 }
 
 .top .main h2 {
 	color: #ffc121;
-	font-size: 18px;
+	font-size: 20px;
 	text-align: center;
 	margin: 0 10px;
 }
@@ -121,7 +121,7 @@ h3 {
 }
 
 .ad .main p {
-	font-size: 22px;
+	font-size: 20px;
 	font-weight: bold;
 	text-align: center;
 }
@@ -164,7 +164,7 @@ h3 {
 }
 
 .feature ul li .main h4 {
-	font-size: 26px;
+	font-size: 22px;
 	color: #2a0e00;
 	margin: 10px 0;
 	text-align: center;
@@ -182,7 +182,7 @@ h3 {
 
 /* Member */
 .member .team p {
-	font-size: 20px;
+	font-size: 18px;
 	margin: 20px 10px;
 }
 
@@ -193,7 +193,7 @@ h3 {
 .member .team p a.twitter {
 	color: silver;
 	margin-left: 10px;
-	font-size: 18px;
+	font-size: 16px;
 }
 
 .member .icon {
@@ -203,7 +203,7 @@ h3 {
 /* Contact */
 .contact p {
 	text-align: center;
-	font-size: 20px;
+	font-size: 18px;
 }
 
 /* Footer */
