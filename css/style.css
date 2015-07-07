@@ -74,10 +74,36 @@ body {
 	margin: 20px 0 40px;
 }
 
+.top .main p {
+	font-size: 24px;
+	text-align: center;
+	margin: 80px auto 100px;
+	padding: 8px 0;
+	width: 280px;
+	color: white;
+	background-color: #ff2361;
+	border-radius: 30px;
+}
+
 .top .main .appstore {
 	width: 200px;
 	opacity: 0.2;
 	margin-left: 150px;
+}
+
+.top .main .share {
+	margin: 20px 180px;
+}
+
+.top .main .share li {
+	list-style: none;
+	float: left;
+	width: 120px;
+	height: 20px;
+}
+
+.top .main .share li.fb > iframe {
+	height: 20px;
 }
 
 /* PC - Ad */
