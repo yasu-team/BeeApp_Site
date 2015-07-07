@@ -33,6 +33,17 @@ body {
 	position: relative;
 }
 
+h3 {
+	width: 240px;
+	margin: 60px auto 20px;
+	padding: 10px 0;
+	font-size: 22px;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.1);
+	border-radius: 40px;
+	color: #2a0e00;
+}
+
 /* PC - Header */
 .header h1 {
 	float: left;
@@ -55,8 +66,8 @@ body {
 /* PC - Top */
 .top .mock {
 	float: left;
-	width: 340px;
-	margin: 0 60px 40px 0;
+	width: 360px;
+	margin: 0 40px 40px 0;
 }
 
 .top .main {
@@ -78,7 +89,7 @@ body {
 	font-size: 24px;
 	text-align: center;
 	margin: 80px auto 100px;
-	padding: 8px 0;
+	padding: 12px 0;
 	width: 280px;
 	color: white;
 	background-color: #ff2361;
@@ -121,7 +132,7 @@ body {
 }
 
 .ad .main p {
-	font-size: 24px;
+	font-size: 28px;
 	font-weight: bold;
 	margin: 60px 0;
 }
@@ -130,7 +141,11 @@ body {
 	padding: 20px 40px;
 	background-color: white;
 	border-radius: 40px;
-	font-size: 20px;
+	font-size: 24px;
+}
+
+.ad .main a:hover {
+	background-color: silver;
 }
 
 .ad img {
@@ -139,17 +154,6 @@ body {
 }
 
 /* PC - Feature */
-.feature h3 {
-	width: 240px;
-	margin: 60px auto 20px;
-	padding: 10px 0;
-	font-size: 22px;
-	text-align: center;
-	background: rgba(0, 0, 0, 0.1);
-	border-radius: 40px;
-	color: #2a0e00;
-}
-
 .feature ul li {
 	margin-bottom: 20px;
 	padding-bottom: 20px;
@@ -183,4 +187,50 @@ body {
 .feature ul li .image {
 	float: right;
 	width: 400px;
+}
+
+/* PC - Member */
+.member .container {
+	overflow: inherit;
+}
+
+.member .team {
+	float: left;
+	width: 660px;
+	margin-right: 40px;
+}
+
+.member .team p {
+	font-size: 20px;
+	margin: 30px 0;
+}
+
+.member .team p strong {
+	color: #ffc121;
+}
+
+.member .team p a.twitter {
+	color: silver;
+	margin-left: 10px;
+	font-size: 18px;
+}
+
+.member .icon {
+	width: 300px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+/* PC - Contact */
+.contact p {
+	text-align: center;
+	font-size: 20px;
+}
+
+/* PC - Footer */
+.footer p {
+	text-align: center;
+	color: silver;
+	margin: 100px 0 20px;
 }
