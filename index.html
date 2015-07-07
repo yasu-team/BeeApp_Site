@@ -45,7 +45,17 @@
 		<div class="container">
 			<img class="mock" src="img/mock_event.png">
 			<div class="main">
-				<img class="catch" src="img/catch.png">
+			<script>
+			(function(){
+				var _UA = navigator.userAgent;
+				if (_UA.indexOf('iPhone') > -1 || _UA.indexOf('iPod') > -1 || _UA.indexOf('Android') > -1) {
+					document.write('<img class="catch" src="img/catch_simple.png">');
+				}else{
+					document.write('<img class="catch" src="img/catch.png">');
+				}
+			})();
+			</script>
+				<!-- <img class="catch" src="img/catch.png"> -->
 				<h2>名古屋のサークル・イベント発見アプリ</h2>
 				<p>7月リリース決定！</p>
 <!-- 				<img class="appstore" src="img/lp_appstore.png"> -->
