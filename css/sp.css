@@ -90,9 +90,9 @@ h3 {
 }
 
 .top .main .appstore {
-	width: 200px;
-	opacity: 0.2;
-	margin-left: 150px;
+    width: 160px;
+    margin: 0 auto;
+    display: block;
 }
 
 .top .main .share {
@@ -181,23 +181,68 @@ h3 {
 }
 
 /* Member */
-.member .team p {
+.member .profile {
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+.member .profile li {
+	float: left;
+	width: 33%;
+	margin-bottom: 40px;
+    text-align: center;
+}
+
+.member .profile li .thumb {
+    display: block;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+    margin: 0 auto 4px;
+}
+
+.member .profile li .name {
+	margin: 0;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.member .profile li .twitter {
+	margin: 0;
+	padding-left: 4px;
+	color: gray;
+}
+
+.member .profile li .twitter img {
+	width: 16px;
+}
+
+.member .profile li .job {
+	color: white;
+	font-size: 12px;
+	margin-left: 2px;
+	padding: 2px 4px;
+	border-radius: 4px;
+	display: inline;
+}
+
+.member .profile li .job.leader {background: #e74c3c}
+.member .profile li .job.engineer {background: #3498db}
+.member .profile li .job.dir {background: #27ae60}
+.member .profile li .job.pr {background: #8e44ad}
+.member .profile li .job.office {background: #34495e}
+
+.member .profile li .univ {
+	margin: 0;
+	color: gray;
+}
+
+.member .description {
 	font-size: 18px;
-	margin: 20px 10px;
 }
 
-.member .team p strong {
+.member .description strong {
 	color: #ffc121;
-}
-
-.member .team p a.twitter {
-	color: silver;
-	margin-left: 10px;
-	font-size: 16px;
-}
-
-.member .icon {
-	display: none;
 }
 
 /* Contact */

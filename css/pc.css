@@ -98,8 +98,7 @@ h3 {
 
 .top .main .appstore {
 	width: 200px;
-	opacity: 0.2;
-	margin-left: 150px;
+    margin: 140px 0 40px 180px;
 }
 
 .top .main .share {
@@ -194,32 +193,68 @@ h3 {
 	overflow: inherit;
 }
 
-.member .team {
+.member .profile {
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+.member .profile li {
 	float: left;
-	width: 660px;
-	margin-right: 40px;
+	width: 33%;
+	margin-bottom: 40px;
 }
 
-.member .team p {
+.member .profile li .thumb {
+	float: left;
+	margin-right: 10px;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+
+.member .profile li .name {
+	margin: 2px 0 0;
 	font-size: 20px;
-	margin: 30px 0;
+	font-weight: bold;
 }
 
-.member .team p strong {
+.member .profile li .twitter {
+	margin: 0;
+	padding-left: 4px;
+	color: gray;
+}
+
+.member .profile li .twitter img {
+	width: 16px;
+}
+
+.member .profile li .job {
+	color: white;
+	font-size: 12px;
+	margin-left: 2px;
+	padding: 2px 4px;
+	border-radius: 4px;
+	display: inline;
+}
+
+.member .profile li .job.leader {background: #e74c3c}
+.member .profile li .job.engineer {background: #3498db}
+.member .profile li .job.dir {background: #27ae60}
+.member .profile li .job.pr {background: #8e44ad}
+.member .profile li .job.office {background: #34495e}
+
+.member .profile li .univ {
+	margin: 0;
+	color: gray;
+}
+
+.member .description {
+	font-size: 20px;
+	margin: 30px 100px;
+}
+
+.member .description strong {
 	color: #ffc121;
-}
-
-.member .team p a.twitter {
-	color: silver;
-	margin-left: 10px;
-	font-size: 18px;
-}
-
-.member .icon {
-	width: 300px;
-	position: absolute;
-	right: 0;
-	top: 0;
 }
 
 /* Contact */
