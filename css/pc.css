@@ -188,6 +188,34 @@ h3 {
 	width: 400px;
 }
 
+/* Proposal */
+.proposal .container {
+  width: 700px;
+  padding: 30px 40px;
+	background-color: white;
+  border-radius: 8px;
+  border: 1px solid #eee;
+  text-align: center;
+}
+
+.proposal h4 {
+  margin: 0 0 10px;
+  font-size: 34px;
+  font-weight: bold;
+  color: #ffc121;
+}
+
+.proposal .link {
+  color: #E9202C;
+}
+
+.proposal .link img {
+  width: 40px;
+  position: relative;
+  top: 15px;
+  padding-right: 10px;
+}
+
 /* Member */
 .member .container {
 	overflow: inherit;

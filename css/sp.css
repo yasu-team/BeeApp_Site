@@ -22,7 +22,7 @@ p {
 /* Common */
 body {
 	background-color: #f9f7f4;
-    font-family: "Lucida Grande", "segoe UI", "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", Meiryo, Arial, sans-serif;
+  font-family: "Lucida Grande", "segoe UI", "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", Meiryo, Arial, sans-serif;
 }
 
 .container {
@@ -178,6 +178,33 @@ h3 {
 .feature ul li .image {
 	width: 90%;
 	margin: 0 5%;
+}
+
+/* Proposal */
+.proposal {
+  padding: 30px 10px;
+	background-color: white;
+  text-align: center;
+}
+
+.proposal h4 {
+  margin: 0 0 10px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffc121;
+}
+
+.proposal .link {
+  color: #E9202C;
+  height: 70px;
+  display: block;
+}
+
+.proposal .link img {
+  width: 40px;
+  position: relative;
+  top: 15px;
+  padding-right: 10px;
 }
 
 /* Member */
