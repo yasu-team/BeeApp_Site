@@ -292,6 +292,21 @@ h3 {
 	font-size: 20px;
 }
 
+.contact a {
+	padding: 15px 40px;
+	background-color: #ffc121;
+	border-radius: 30px;
+	font-size: 24px;
+}
+
+.contact a:hover {
+	background-color: silver;
+}
+
+.contact h4 {
+	text-align: center;
+}
+
 /* Footer */
 .footer p {
 	text-align: center;
