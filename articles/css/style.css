@@ -1,0 +1,128 @@
+# Empty CSS file for your own CSS
+
+body {
+
+}
+
+* {
+	font-family: "AXIS Std";
+	background-color: #f9f7f4;
+}
+
+.article h1 {
+	background-color: rgba(255,250,205,.5);
+	border-top: 2px solid #ffc121;
+	border-bottom: 2px solid #ffc121;
+	font-size: 30px;
+	padding: 20px;
+	//border-radius: 10px;
+	margin-bottom: 50px;
+}
+
+.article h2 {
+	border-left: 5px solid rgba(173,255,47,.7);
+	padding-left: 10px;
+	font-size: 26px;
+	margin-bottom: 24px;
+}
+.article h3 {
+	color: #66CDAA;
+	font-size: 25px;
+	line-height: 2em; 
+	margin-bottom: 24px; 
+	letter-spacing:0.8pt;
+}
+
+.article p {
+	color:#444444; 
+	font-size:16px; 
+	font-family: "メイリオ","Meiryo","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","ＭＳ Ｐゴシック","MS PGothic",Osaka,sans-serif;
+	line-height: 2em; 
+	margin-bottom: 24px; 
+	letter-spacing:0.8pt;
+}
+.article img {
+	max-width: 100%;
+	margin: 20px 0;
+}
+.article img:hover {
+	opacity: .8;
+}
+
+
+
+.recommend .new, .ranking {
+	width: 100%;
+	height: auto;
+	padding: 20px;
+	margin: 20px 0;
+}
+.recommend h2 {
+	font-family: "Impact";
+	padding: 10px;
+	font-size: 20px;
+	min-width: 300px;
+}
+.recommend .new h2 { border-bottom: 2px solid #008B8B;}
+.recommend .ranking h2 {border-bottom: 2px solid #FF8C00;}
+.recommend .event h2{border-bottom: 2px solid #00BFFF;}
+.recommend h3 {
+	font-size: 18px;
+	border: 0;
+	border-bottom: 0;
+}
+.recommend span {
+	font-family: "Meiryo";
+	font-size: 15px;
+	color: #6495ED;
+	margin-left: 10px;
+}
+.recommend ul{
+	list-style-type: none;
+	min-width: 340px;
+	height: 100%;
+	position: relative;
+	right: 50px;
+}
+.recommend ul li {
+	width: 100%;
+	height: auto;
+	display: inline-block;
+	padding: 10px 0;
+	border-bottom: 1px solid rgba(68, 68, 68, .7) 
+}
+.recommend ul li img {
+	margin: 5px;
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+	float: left;
+}
+.recommend ul li h1 {
+	font-size: 15px;
+	color: #40E0D0;
+	font-family: "メイリオ","Meiryo","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","ＭＳ Ｐゴシック","MS PGothic",Osaka,sans-serif;
+}
+.recommend ul li p {
+	color:#444444; 
+	font-size:10px; 
+	font-family: "メイリオ","Meiryo","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","ＭＳ Ｐゴシック","MS PGothic",Osaka,sans-serif;
+	line-height: 2em; 
+	letter-spacing:0.8pt;
+}
+.recommend a {
+	color: #444;
+	text-decoration: none;
+}
+.recommend a:hover {
+	color: #FF8C00;
+}
+.recommend img:hover {
+	opacity: .7;
+}
+
+.footer p {
+	text-align: center;
+	color: #ffc121;
+	margin: 50px 0 40px;
+}
