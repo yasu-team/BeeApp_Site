@@ -1,0 +1,11 @@
+# Empty CSS file for your own CSS
+
+.article{
+	display: inline-block;
+	width: auto;
+	height: 300px;
+}
+
+.thumbnail {
+	display: inline-block;
+}
