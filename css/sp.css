@@ -279,19 +279,21 @@ h3 {
 	font-size: 18px;
 }
 
-.contact a {
-	padding: 15px 40px;
-	background-color: #ffc121;
-	border-radius: 30px;
-	font-size: 24px;
+.contact .form {
+  display: block;
+  width: 300px;
+  text-align: center;
+  margin: 20px auto;
+  padding: 10px;
+	font-size: 20px;
+  border: 2px solid #E9202C;
+  color: #E9202C;
+  border-radius: 8px;
 }
 
-.contact a:hover {
-	background-color: silver;
-}
-
-.contact h4 {
-	text-align: center;
+.contact .form:hover {
+  background: #E9202C;
+  color: white;
 }
 
 /* Footer */
