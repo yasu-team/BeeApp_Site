@@ -1,0 +1,80 @@
+/* Reset */
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+	float: left;
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #2a0e00;
+}
+
+p {
+	color: #2a0e00;
+	margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+/* Common */
+body {
+	background-color: #f9f7f4;
+    font-family: "Lucida Grande", "segoe UI", "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", Meiryo, Arial, sans-serif;
+}
+
+.header {
+  background: #ffc121;
+}
+
+.logo {
+  padding: 10px 5%;
+}
+
+.name {
+  font-size: 34px;
+  font-weight: bold;
+  padding: 0 5% 10px 5%;
+}
+
+.comment {
+  padding: 10px 5%;
+}
+
+.profile {
+  overflow: hidden;
+}
+
+.profile li {
+  width: 90%;
+  border-bottom: 1px solid #ccc;
+  margin: 0 5%;
+  padding: 10px 0;
+}
+
+.profile li .key {
+  width: 25%;
+  padding-left: 5%;
+  float: left;
+}
+
+.profile li .value {
+  width: 65%;
+  padding-right: 5%;
+  float: left;
+}
+
+.pictures {
+  overflow: hidden;
+  padding: 10px 5%;
+}
+
+.pictures li {
+  margin-bottom: 10px;
+}
